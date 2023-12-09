@@ -1,0 +1,365 @@
+.h1 {
+    font-size: 40px;
+    background-color:rgb(120, 231, 231);
+    text-align: left;
+    padding: 20px 20px;
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    
+}
+.li1 {
+    display: block;
+    position: relative;
+    left: 450px;
+    font-size: 30px;
+    bottom: 120px;
+    letter-spacing: 2px;
+}
+.li2 {
+    display: block;
+    position: relative;
+    left: 660px;
+    font-size: 30px;
+    bottom: 155px;
+    letter-spacing: 2px;
+}
+.li3 {
+    display: block;
+    position: relative;
+    left: 850px;
+    font-size: 30px;
+    bottom: 188.5px;
+    letter-spacing: 2px;
+}
+.li4 {
+    display: block;
+    position: relative;
+    left: 1040px;
+    font-size: 30px;
+    bottom: 223px;
+    letter-spacing: 2px;
+   
+}
+#header {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    
+}
+body {
+    background-color: antiquewhite;
+    padding-bottom: 60px;
+    position: relative;
+    bottom: 30px;
+}
+#blue {
+    color: white;
+    background-color: #2d5dcc;
+    width: 360px;
+    height: 100px;
+    border: 1px solid rgb(135, 134, 170);
+    border-radius: 10px;
+}
+
+#blue:active {
+    background-color: #d957d9;
+    box-shadow: inset 1em 2em;
+}
+
+#blue h3, #blue p {
+    text-align: center;
+    font-weight: normal; 
+}
+
+#pink {
+    color: black;
+    background-color: #d957d9;
+    width: 360px;
+    height: 100px;
+}
+
+#pink h3, #pink p {
+    text-align: center;
+    font-weight: normal; 
+}
+
+#green {
+    color: black;
+    background-color: #4fe0b0;
+    width: 360px;
+    height: 100px;
+}
+
+#green h3, #green p {
+    text-align: center;
+    font-weight: normal; 
+}
+
+#beige {
+    color: black;
+    background-color: #efd9ca;
+    width: 360px;
+    height: 100px;
+    position: relative;
+    bottom: 130px;
+    left: 113px;
+}
+
+#beige h3, #beige p {
+    text-align: center;
+    font-weight: normal;
+    
+}
+
+#colors h2{
+    font-size: 30px;
+    font-weight: bold; 
+    text-align: center;
+}
+
+
+#blue, #pink, #green, #beige {
+    display: inline-block;
+}
+
+#colors {
+    border: 3px solid rgb(209, 207, 207);
+    padding: 10px 10px;
+    margin: 40px 100px;
+    position: relative;
+    top: 100px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.753);
+    display: block;
+    clear: both;
+    
+}
+.regular {
+    font-weight: normal;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+#source {
+    font-family: 'Source Code Pro', monospace;
+}
+.san1 {
+    font-weight: normal;
+}
+.san2 {
+    font-weight: bold;
+}
+.san3 {
+    font-style: italic;
+}
+#sans {
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    left: 60px;
+}
+
+.pop1 {
+    font-weight: normal;
+}
+.pop2 {
+    font-weight: bold;
+}
+.pop3 {
+    font-style: italic;
+}
+
+#poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+#source, #sans, #poppins {
+    display: inline-block;
+}
+
+#fonts {
+    border: 3px solid rgb(211, 209, 209);
+    padding: 10px 10px;
+    margin: 0 100px;
+    height: 460px;
+    position: relative;
+    bottom: 20px;  
+    background-color: rgba(255, 255, 255, 0.753);
+}
+#source h3{
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#sans h3{
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#poppins h3{
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#fonts h2 {
+    font-size: 30px;
+    font-weight: bold; 
+}
+ 
+.li {
+    font-size: 20px;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#text {
+    border: 3px solid rgb(211, 209, 209);
+    padding: 10px 10px;
+    margin: 0 100px;
+    height: 480px;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+.main {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+    
+}
+
+#but1 .bu{
+    padding: 10px;
+    border: 1px solid;
+    padding: 20px 20px;
+    box-shadow: 2px 3px;
+    position: relative;
+    margin: 2px 4px;
+    text-decoration: underline;
+    color: blue; 
+    width: 260px;
+    height: 100px; 
+}
+#but1 .bu:hover {
+    text-decoration: none;
+    background-color:aqua;
+}
+
+#but1 .bu:active {
+    margin: 4px;
+    box-shadow: 0px 0px;
+}
+
+#but2 .bu1{
+    border: 1px solid;
+    padding: 20px 20px;
+    position: relative;
+    margin: 2px 4px;
+    text-decoration: underline;
+    color: blue; 
+    width: 260px;
+    height: 100px;
+    
+}
+
+#but2 .bu1:hover {
+    color: orange;
+}
+
+#but2 .bu1:active {
+    box-shadow: inset 5px 5px 2em 0.1em yellow;
+}
+
+#but3 .bu2 {
+    padding: 20px;
+    border: 1px solid rgb(145, 235, 145);
+    margin: 2px 4px;
+    text-decoration: underline dotted;
+    color: red;
+    border-radius: 100%;
+    position:relative;
+    width: 260px;
+    height: 100px;
+      
+}
+
+#but3 .bu2:active{
+    box-shadow: 2px 3px 2px 1px;
+}
+
+#but4 .bu3 {
+    padding: 20px;
+    border: 1px solid indigo;
+    text-decoration: none;
+    margin: 2px 4px;
+    color:bisque;
+    border-radius: 40%;
+    position:relative;
+    width: 260px;
+    height: 100px;
+     
+}
+
+#but4 .bu3:active {
+    background-color:rgb(145, 235, 145);
+}
+
+#but5 .bu4 {
+    padding: 20px;
+    border: 1px soild pink;
+    text-decoration: underline dashed;
+    border-radius: 20%;
+    position:relative;
+    width: 260px;
+    height: 100px;
+    top: 30px;
+    left: 440px;
+    
+}
+#but5 .bu4:hover{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+#but5 .bu4:active {
+    color: hsl(233, 60%, 60%);
+    box-shadow: 2px 3px 2px 1px;
+    background-color: aqua;
+}
+
+
+
+#but1, #but2, #but3, #but4{
+    display: inline-block;
+}
+
+#button {
+    border: 3px solid rgb(211, 209, 209);
+    padding: 10px 10px;
+    margin: 0 100px;
+    height: 300px;
+    position: relative;
+    top: 20px;  
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+
+
